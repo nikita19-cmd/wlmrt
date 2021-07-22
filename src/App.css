@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  background-color: #F8F9FA;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(148, 148, 226, 0.5);
+  height:100vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+.wrapper1{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%); 
+}
+.circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #fcdc29;
+  border-radius: 50%;
+  animation: loading 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: bottom center;
+  position: relative;
+}
+@keyframes loading{
+  0%{
+    transform: translateY(0px);
+    background-color: #fcdc29;
+  }
+  50%{
+    transform: translateY(50px);
+    background-color: #ef584a;
+  }
+  100%{
+    transform: translateY(0px);
+    background-color: #fcdc29;
+  }
+}
+.circle-1{
+  animation-delay: 0.1s;
+}
+.circle-2{
+  animation-delay: 0.2s;
+}
+.circle-3{
+  animation-delay: 0.3s;
+}
+.circle-4{
+  animation-delay: 0.4s;
+}
+.circle-5{
+  animation-delay: 0.5s;
+}
+.circle-6{
+  animation-delay: 0.6s;
+}
+.circle-7{
+  animation-delay: 0.7s;
+}
+.circle-8{
+  animation-delay: 0.8s;
+}
+
