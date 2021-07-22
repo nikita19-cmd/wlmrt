@@ -1,0 +1,20 @@
+.card:hover {
+    box-shadow: none;
+}
+.btn {
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all 400ms ease-in-out;
+}
+.btn-yellow {
+    background-color: #FFC220;
+}
+.btn-blue {
+    background: #041e42;
+}
+.btn:hover {
+    color: #041e42;
+    background: transparent;
+}

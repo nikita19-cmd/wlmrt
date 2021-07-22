@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+    .Saving {
+        height: 140px;
+        color: #041e42;
+        background: #FFC220;
+        border-radius: 70px;
+        border: 2px solid #041e42;
+        padding: 0 70px;
+        margin: auto !important;
+        margin-top: 10px !important;
+        /* margin-left: calc(100vw - 600px);
+        margin-right: calc(100vw - 600px); */
+    }
+
+    .holder {
+        height: 70px;
+        display: flex;
+        overflow-x: visible;
+        overflow-y: hidden;
+    }
+
+    .holder::-webkit-scrollbar {
+        display: none;
+    }
+
+    .holder>.card {
+        height: 60px;
+        min-width: 200px;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #fff;
+        border-radius: 4px;
+        background: #041e42;
+        text-decoration: none;
+        /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05); */
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        padding: 14px 80px 18px 36px;
+        cursor: pointer;
+    }
+
+    .holder>.card:hover{
+        transform: scale(1.05);
+        color: #fff;
+        /* box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06); */
+   }
+
+
+
